@@ -22,7 +22,7 @@ inset, inset squish, inset stretch, stack, inline, and grid
 水平放置的元素之间的空间。
 
 ### 配图
-![grid-system]('../assets/grid-system.png')
+![grid-system](../assets/grid-system.png)
 
 # *参考*
 [Space in design systems](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62)

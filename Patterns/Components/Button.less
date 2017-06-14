@@ -1,0 +1,55 @@
+@import "../../BuildingBlocks/ColorSchema/Palette";
+
+/*
+ * Primary Button
+ * 组成-》
+ */
+.btn {
+  background-color: @brand;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px @gray20;
+  @include typographic
+}
+
+.btn:hover {
+
+}
+.btn:disabled {
+
+}
+.btn:focus {
+
+}
+.btn:press {
+
+}
+//转圈
+.btn:progress{
+
+}
+
+.btn-invert {
+  @include btn;
+
+}
+
+//与主按钮保持对比度，背景色选用中立色，同时需要注意与disable状态保持对比
+.btn-secondary {
+
+}
+/* 幽灵按钮（背景色为透明的） 容易出问题，因为你不知道背景会是什么颜色的 */
+.btn-ghost {
+
+}
+
+/* vary size 不同大小 */
+.btn__mega,.btn__huge,.btn__puffy,.btn__large {
+
+}
+.btn__micro,.btn__tiny,.btn__small {
+
+}
+
+/* flat btn 要与链接有所区别 */

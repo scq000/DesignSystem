@@ -1,0 +1,14 @@
+
+.hover(@color, @duration-base, @easing-base) {
+  transition: background-color @duration-base @easing-base;
+  text-decoration: none;
+  background-color: lighten(@color, 10%);
+  box-shadow: @shadow-base;
+}
+
+/* Example */
+//.sample-class {
+//  &:hover {
+//    .hover(@blue-base);
+//  }
+//}

@@ -100,5 +100,5 @@ google material设计中水波效果动画
 用来加速js动画的库
 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 
-
-
+## dynamicsjs
+[http://dynamicsjs.com/](http://dynamicsjs.com/)
